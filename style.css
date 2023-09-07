@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.active-nav {
+    color: #194D91;
+}
+
+header {
+    height: 80px;
+    background-color: #fcebeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+
+section {
+    margin: 2rem;
+}
+
+main {
+    width: 1150px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .card-post {
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid rgb(242, 242, 242);
+}
+
+main .card-post img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
